@@ -43,3 +43,11 @@ int main() {
 int yywrap() {
     return 1;
 }
+
+
+
+Command to run
+
+lex count.l
+gcc lex.yy.c -o count -ll
+./count
